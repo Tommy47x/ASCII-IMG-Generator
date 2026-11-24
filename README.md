@@ -83,3 +83,16 @@ The interface additionally needs SDL2, OpenGL and a C++17 compiler.
 ## Bundled components
 
 The `ui/` folder includes Dear ImGui, its SDL2/OpenGL3 backends, stb_image and Inter; the `fonts/` folder includes DejaVu, SimSun and Arial Unicode. Their license files are kept alongside them.
+
+## License
+
+The scripts and the ImGui desktop interface in this repository are released under the [MIT License](LICENSE).
+
+Bundled third-party components keep their own licenses:
+
+* Dear ImGui, its SDL2/OpenGL3 backends and stb_image — `ui/third_party/imgui/LICENSE.txt`
+* Inter — `ui/assets/Inter-LICENSE.txt`
+* DejaVu — `fonts/DejaVu Fonts License.txt`
+* SimSun and Arial Unicode are bundled font files; check their own terms before redistributing them.
+
+The files under `demo/` are sample images included for reference and are not covered by the root license.
